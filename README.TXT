@@ -1,42 +1,7 @@
-ÊµÑéÆ÷²Ä:
-	MiniSTM32F103¿ª·¢°åV3°æ±¾
-	
-ÊµÑéÄ¿µÄ:
-	±¾ÊµÑéÎªÐÂ½¨¹¤³ÌÊµÑé£¬½ö¹©´ó¼ÒÐÂ½¨¹¤³ÌÊ±²Î¿¼¡£
-	µ÷ÊÔ²½Öè£¬Çë¿´¡¶STM32²»ÍêÈ«ÊÖ²á-¿âº¯Êý°æ±¾¡·µÚ3.4½Ú¡£
-	
-Ó²¼þ×ÊÔ´:
-	1,´®¿Ú1(²¨ÌØÂÊ:9600,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	
-ÊµÑéÏÖÏó:
-	±¾ÊµÑéÏÂÔØºó£¬´®¿Ú1½«²»Í£µÄÊä³ötµÄÖµ£¬´ò¿ªµçÄÔ´®¿Úµ÷ÊÔÖúÊÖ¼´¿É²é¿´ÏÖÏó¡£ 
-	
-×¢ÒâÊÂÏî:
-	ÎÞ.
+äº§ç”Ÿæ³¢å½¢æµç¨‹ï¼š
+g_Sine.Frequency = 2000; // é¢‘çŽ‡ä¸º2000
+g_Sine.Amplitude = 2048; // å¹…å€¼ä¸ºï¼ˆ2048/4095+2047/4095ï¼‰*3.3=3.3
+InitWaveMaker(); // åˆå§‹åŒ–
+SetupWaveType(WT_SIN, g_Sine.Frequency, g_Sine.Amplitude, 0); // äº§ç”Ÿæ³¢å½¢
 
-
-			ÕýµãÔ­×Ó@ALIENTEK 
-			¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-			µç»°£º020-38271790
-			´«Õæ£º020-36773971
-			¹ºÂò£ºhttp://eboard.taobao.com
-			¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-			¼¼ÊõÂÛÌ³£ºwww.openedv.com
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+å½“ç„¶å¯ä»¥ç›´æŽ¥è°ƒç”¨rect()å‡½æ•°æˆ–è€…å…¶ä»–æ³¢å½¢çš„å‚æ•°ï¼Œä¿®æ”¹å‚æ•°å³å¯ã€‚

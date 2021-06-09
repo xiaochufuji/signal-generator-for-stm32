@@ -2,10 +2,15 @@
 #include "usart.h"
 #include "bsp_WaveMaker.h"
 
-
+/*******************************************************************************
+*	函数名: rect
+*	输  入:	无
+*	输  出:	无
+*	功能说明：产生方波，Frequency为频率，Amplitude为幅值参数
+*******************************************************************************/
 void rect(){
 	/* 方波 */
-	g_Rect.Frequency = 2000;  //10k
+	g_Rect.Frequency = 2000;  //2k
 	g_Rect.Amplitude = 4095;   //2000
 	g_Rect.DutyCycle = 50;     //50
 	InitWaveMaker();           
